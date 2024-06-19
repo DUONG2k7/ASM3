@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="organizational.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-center">
+                <img src="image/header.png" alt="">
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu-center">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="dropdown">
+                    <a href="#">Giới thiệu</a>
+                    <div class="submenu">
+                        <a href="gtc.html">Giới thiệu chung</a>
+                        <a href="lshtvpt.html">Lịch sử hình thành</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Sơ đồ tổ chức</a>
+                    <div class="submenu">
+                        <a href="bgh.html">Ban giám hiệu</a>
+                        <a href="dngv.html">Đội ngũ giáo viên</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Tin tức</a>
+                    <div class="submenu">
+                        <a href="td.html">Tuyển dụng</a>
+                        <a href="gt.html">Giải thưởng</a>
+                    </div>
+                </li>
+                <li><a href="tb.html">Thông báo</a></li>
+                <li><a href="lh.html">Liên hệ</a></li>
+                <li><a href="tc.html">Tra cứu</a></li>
+            </div>
+            <div class="menu-max-width-850px" style="display: none;">
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    ☰
+                  </a>
+            </div>
+        </div>
+        <div class="body">
+            <h1>THÔNG BÁO</h1>
+            <hr>
+            <div class="body-items">
+                <div class="body-items-left">
+                    <img src="image/TB1.jpg" alt="">
+                </div>
+                <div class="body-items-right">
+                    <a href="#">Hội thi thuyết trình hùng biện</a>
+                    <p>Dõi theo những màn tranh biện nảy lửa của thí sinh qua các vòng đấu siêu kịch tính tại Phổ Cao Debate Contest 2023!</p>
+                </div>
+            </div>
+            <div class="body-items">
+                <div class="body-items-left">
+                    <img src="image/TB2.jpg" alt="">
+                </div>
+                <div class="body-items-right">
+                    <a href="#">Cuộc thi thể thao năm 2023</a>
+                    <p>Khép lại Hội thao Elympic FEHCM 2023 với chủ đề "Vượt qua giới hạn" hướng tới chào mừng ngày Nhà giáo Việt Nam 20.11, Team Đồng Nai đã xuất sắc mang về thật nhiều giải thưởng ấn tượng.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>ĐƠN VỊ CHỦ QUẢN: TRƯỜNG THPT TÂN PHONG</p>
+            <p>Địa chỉ: 19F, Nguyễn Văn Linh, Khu DC Ven Sông, P. Tân Phong, Quận 7</p>
+            <span>Điện thoại: 02913610602 - Fax: - Email: c3tanphong.baclieu@moet.edu.vn</span>
+            <p>Thiết kế và phát triển bởi EduPortal</p>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="dropdown mt-3">
+            <a href="index.html"><button type="button" class="btn btn-secondary menu-btn">Trang chủ</button></a>
+            <button class="btn btn-secondary dropdown-toggle menu-btn" type="button" data-bs-toggle="dropdown">Giới thiệu</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="gtc.html">Giới thiệu chung</a></li>
+                <li><a class="dropdown-item" href="lshtvpt.html">Lịch sử hình thành</a></li>
+            </ul>
+            <button class="btn btn-secondary dropdown-toggle menu-btn" type="button" data-bs-toggle="dropdown">Sơ đồ tổ chức</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="bgh.html">Ban giám hiệu</a></li>
+                <li><a class="dropdown-item" href="dngv.html">Đội ngũ giáo viên</a></li>
+            </ul>
+            <button class="btn btn-secondary dropdown-toggle menu-btn" type="button" data-bs-toggle="dropdown">Tin tức</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="td.html">Tuyển dụng</a></li>
+                <li><a class="dropdown-item" href="gt.html">Giải thưởng</a></li>
+            </ul>
+            <a href="tb.html"><button type="button" class="btn btn-primary menu-btn">Thông báo</button></a>
+            <a href="lh.html"><button type="button" class="btn btn-secondary menu-btn">Liên hệ</button></a>
+            <a href="tc.html"><button type="button" class="btn btn-secondary menu-btn">Tra cứu</button></a>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
